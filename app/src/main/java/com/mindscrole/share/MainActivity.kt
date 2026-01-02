@@ -33,7 +33,8 @@ class MainActivity : ComponentActivity() {
                 "📥 Shared content received:\n\n$it"
             } ?: "⚠️ No text received"
         } else {
-            textView.text = "Mindscrole ready.\n\nShare a Reel from Instagram."
+            textView.text = "Mindscrole ready ✅\n\nShare an Instagram Reel to process."
+
         }
     }
 }
